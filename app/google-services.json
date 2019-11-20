@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789940251404",
+    "firebase_url": "https://mobiroller-611d8.firebaseio.com",
+    "project_id": "mobiroller-611d8",
+    "storage_bucket": "mobiroller-611d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789940251404:android:ee29bf46e1f02042733729",
+        "android_client_info": {
+          "package_name": "com.fatihduygu.mobirollerproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789940251404-2no0n4tmaau8r1q9auun5fc7rfo0d3pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatihduygu.mobirollerproject",
+            "certificate_hash": "0bf3914ba91ac912b2a1f0aa70c45e4521bb1aea"
+          }
+        },
+        {
+          "client_id": "789940251404-vruqc0eaeesnv0p62lar6onc8j8j4c6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0znALJZXVBoYu1Fz7woXEaXLqTpqyg5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789940251404-vruqc0eaeesnv0p62lar6onc8j8j4c6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

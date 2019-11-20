@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.DetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/detail_fragment_product_image"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:src="@drawable/product3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_fragment_product_image">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/detail_fragment_caption_txt"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nylon jacket with pouch pocket and hood"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/detail_fragment_price_txt"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="189.95 TL"
+                android:textColor="#000"
+                android:fontFamily="@font/robotomedium"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:textStyle="bold"
+            android:text="DESCRIPTION"/>
+
+        <TextView
+            android:id="@+id/detail_fragment_description_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="Nylon jacket with a pouch pocket, hood, zip fastening down to the the chest and adjustable cuff and hem detail. Available in a range of colours."/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right"
+            >
+
+            <Button
+                android:id="@+id/detail_fragment_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/delete_button"
+                android:fontFamily="@font/robotomedium"
+                android:text="DELETE"
+                android:textColor="#000"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/detail_fragment_update_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/update_button"
+                android:fontFamily="@font/robotomedium"
+                android:text="UPDATE"
+                android:textColor="#FFF"
+                android:textStyle="normal"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
